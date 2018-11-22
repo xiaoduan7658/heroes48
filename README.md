@@ -2,7 +2,7 @@
 
 > A Vue.js project
 
-## 首页
+## 4.首页
 
 - 把静态页面的代码粘贴到 App.vue的模板中
 - 安装bootstrap@3.3.7
@@ -10,7 +10,7 @@
 
 ```js
 // 导入全局样式
-// 导入bootstrap
+  // 导入bootstrap
 import 'bootstrap/dist/css/bootstrap.css';
 // 导入index.css
 import './assets/css/index.css';
@@ -31,13 +31,13 @@ import './assets/css/index.css';
 - 运行 npm run dev
 
 
-## src目录的分类
+## 3.src目录的分类
 
 - components 存放公共的组件
 - views  存放‘页面’ 根据路由变化的组件
 - routes 路由
 
-## 生成项目的文件
+## 2.生成项目的文件
 
 ```
 src 源代码
@@ -55,7 +55,7 @@ webpack.config.js   webpack的配置文件
 ```
 
 
-## 使用vue-cli创建项目
+## 1.使用vue-cli创建项目
 
 - 安装vue-cli
 
